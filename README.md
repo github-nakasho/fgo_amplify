@@ -34,6 +34,8 @@ $ python main.py
 
 ## インスタンスの変更
 
+### 敵メンバー・タイプの変更
+
 デフォルトでは、敵メンバーが「assassin(殺)・caster(術)・rider(騎)」に設定されています。ここではそれを変更する手順をご紹介します。  
 `make_instance.py`で敵メンバーの数やタイプを変更することができます。例えば、敵メンバーを「saber(剣)・moon cancer(月)」にする場合は以下のようにします。
 
@@ -50,3 +52,6 @@ enemy1, enemy2において、指定したいタイプの箇所に1を代入し�
 ['saber', 'archer', 'lancer', 'rider', 'caster', 'assassin', 'berserker', 'ruler'. 'avenger', 'moon cancer', 'alter ego', 'foreigner', 'shielder']
 ```
 
+### 自分のパーティメンバーの変更
+
+`make_instance.py`の`num_party`の値を変更します。
